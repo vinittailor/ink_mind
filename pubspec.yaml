@@ -1,0 +1,59 @@
+name: ink_mind
+description: "InkMind — a RAG-powered notes app using Gemini API, on-device TFLite classification, and Dart isolates."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ── UI / icons ──────────────────────────────────────────────────────────────
+  cupertino_icons: ^1.0.8
+
+  # ── State management ────────────────────────────────────────────────────────
+  flutter_bloc: ^9.1.1         # BLoC pattern
+  equatable: ^2.0.7            # Value equality for states / entities
+
+  # ── Dependency injection ─────────────────────────────────────────────────────
+  get_it: ^8.0.3               # Service locator
+
+  # ── Networking ───────────────────────────────────────────────────────────────
+  dio: ^5.8.0+1                # HTTP client with interceptor support
+
+  # ── Local database ───────────────────────────────────────────────────────────
+  sqflite: ^2.4.2              # SQLite for Flutter
+  path_provider: ^2.1.5        # Platform-specific paths (for sqflite DB path)
+  path: ^1.9.1                 # Path manipulation for sqflite DB filename
+  objectbox: ^4.0.0            # ObjectBox Vector database
+  objectbox_flutter_libs: ^4.0.0 # ObjectBox native binaries
+
+  # ── On-device ML & Media ────────────────────────────────────────────────────
+  tflite_flutter: ^0.12.1     # On-device TFLite inference
+  image_picker: ^1.1.2         # Camera / Gallery photo picking
+  image: ^4.3.0                # Dart image decoding and pixel manipulation
+
+  # ── Routing ──────────────────────────────────────────────────────────────────
+  go_router: ^15.1.2           # Declarative routing
+
+  # ── Functional error handling ────────────────────────────────────────────────
+  fpdart: ^1.1.0               # Either<Failure, T> for use cases
+
+  # ── Environment variables ────────────────────────────────────────────────────
+  flutter_dotenv: ^5.2.1       # Load environment variables from .env file
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  objectbox_generator: ^4.0.0
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/
+    - .env
