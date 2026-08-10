@@ -4,6 +4,16 @@ InkMind is an advanced Flutter application that brings three modern mobile engin
 
 ---
 
+## Screen Recordings & Demos
+
+<!-- Add your screen recordings below. You can use standard Markdown links, image tags (for GIFs), or HTML video tags -->
+
+| Vector DB (ObjectBox) | Simple DB (SQLite / `sqflite`) |
+| :---: | :---: |
+| <!-- ADD VECTOR DB VIDEO HERE --> <br> *Vector DB Demo Recording* | <!-- ADD SQLITE / SQFLITE VIDEO HERE --> <br> *sqflite DB Demo Recording* |
+
+---
+
 ## Key Features
 
 - 🤖 **Streaming AI Chat (RAG)** — Interactive RAG chat powered by Google's Gemini REST API with real-time response streaming over HTTP SSE.
