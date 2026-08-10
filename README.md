@@ -8,9 +8,23 @@ InkMind is an advanced Flutter application that brings three modern mobile engin
 
 <!-- Add your screen recordings below. You can use standard Markdown links, image tags (for GIFs), or HTML video tags -->
 
-| Vector DB (ObjectBox) | Simple DB (SQLite / `sqflite`) |
-| :---: | :---: |
-| <!-- ADD VECTOR DB VIDEO HERE --> <br> *Vector DB Demo Recording* | <!-- ADD SQLITE / SQFLITE VIDEO HERE --> <br> *sqflite DB Demo Recording* |
+| Vector DB (ObjectBox) | 
+| :---: |
+
+
+https://github.com/user-attachments/assets/8464de0d-278e-47d0-8bc2-85a791da7c5f
+
+
+
+
+ 
+| Simple DB (SQLite / `sqflite`) |
+| :---: |
+
+
+https://github.com/user-attachments/assets/e87ed33d-8545-4b1a-ad72-92b06525b9bd
+
+
 
 ---
 
