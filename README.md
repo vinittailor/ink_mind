@@ -25,6 +25,15 @@ https://github.com/user-attachments/assets/8464de0d-278e-47d0-8bc2-85a791da7c5f
 https://github.com/user-attachments/assets/e87ed33d-8545-4b1a-ad72-92b06525b9bd
 
 
+| On-Device Image Classification |
+| :---: |
+
+
+https://github.com/user-attachments/assets/e5e9bba3-d2c3-45b3-8de9-62cc8df7a800
+
+
+
+
 
 ---
 
